@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5775F161C2192500026C2F0 /* Detail1.m in Sources */ = {isa = PBXBuildFile; fileRef = F5775F151C2192500026C2F0 /* Detail1.m */; };
+		F5775F191C21925F0026C2F0 /* Detail2.m in Sources */ = {isa = PBXBuildFile; fileRef = F5775F181C21925F0026C2F0 /* Detail2.m */; };
+		F5D78BEA1C1FC67800FAEA28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D78BE91C1FC67800FAEA28 /* main.m */; };
+		F5D78BED1C1FC67800FAEA28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D78BEC1C1FC67800FAEA28 /* AppDelegate.m */; };
+		F5D78BF31C1FC67800FAEA28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5D78BF11C1FC67800FAEA28 /* Main.storyboard */; };
+		F5D78BF81C1FC67800FAEA28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5D78BF61C1FC67800FAEA28 /* LaunchScreen.storyboard */; };
+		F5D78C001C1FC69B00FAEA28 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D78BFF1C1FC69B00FAEA28 /* Logo.png */; };
+		F5D78C041C1FC6DB00FAEA28 /* VSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D78C031C1FC6DB00FAEA28 /* VSModel.m */; };
+		F5D78C071C1FC70000FAEA28 /* DataManeger.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D78C061C1FC70000FAEA28 /* DataManeger.m */; };
+		F5D78C091C1FC70F00FAEA28 /* Barca.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5D78C081C1FC70F00FAEA28 /* Barca.plist */; };
+		F5FFD90A1C205405004E1D65 /* Master.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FFD9091C205405004E1D65 /* Master.m */; };
+		F5FFD9161C205CE8004E1D65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5FFD9151C205CE8004E1D65 /* Assets.xcassets */; };
+		F5FFD9241C206CFA004E1D65 /* Alba.png in Resources */ = {isa = PBXBuildFile; fileRef = F5FFD9191C206CFA004E1D65 /* Alba.png */; };
+		F5FFD9251C206CFA004E1D65 /* Alves.png in Resources */ = {isa = PBXBuildFile; fileRef = F5FFD91A1C206CFA004E1D65 /* Alves.png */; };
+		F5FFD9261C206CFA004E1D65 /* Bravo.png in Resources */ = {isa = PBXBuildFile; fileRef = F5FFD91B1C206CFA004E1D65 /* Bravo.png */; };
+		F5FFD9271C206CFA004E1D65 /* Busquets.png in Resources */ = {isa = PBXBuildFile; fileRef = F5FFD91C1C206CFA004E1D65 /* Busquets.png */; };
+		F5FFD9281C206CFA004E1D65 /* Iniesta.png in Resources */ = {isa = PBXBuildFile; fileRef = F5FFD91D1C206CFA004E1D65 /* Iniesta.png */; };
+		F5FFD9291C206CFA004E1D65 /* Mascherano.png in Resources */ = {isa = PBXBuildFile; fileRef = F5FFD91E1C206CFA004E1D65 /* Mascherano.png */; };
+		F5FFD92A1C206CFA004E1D65 /* Messi.png in Resources */ = {isa = PBXBuildFile; fileRef = F5FFD91F1C206CFA004E1D65 /* Messi.png */; };
+		F5FFD92B1C206CFA004E1D65 /* Neymar.png in Resources */ = {isa = PBXBuildFile; fileRef = F5FFD9201C206CFA004E1D65 /* Neymar.png */; };
+		F5FFD92C1C206CFA004E1D65 /* Pique.png in Resources */ = {isa = PBXBuildFile; fileRef = F5FFD9211C206CFA004E1D65 /* Pique.png */; };
+		F5FFD92D1C206CFA004E1D65 /* Rakitic.png in Resources */ = {isa = PBXBuildFile; fileRef = F5FFD9221C206CFA004E1D65 /* Rakitic.png */; };
+		F5FFD93A1C206D07004E1D65 /* Alba0.png in Resources */ = {isa = PBXBuildFile; fileRef = F5FFD92F1C206D07004E1D65 /* Alba0.png */; };
+		F5FFD93B1C206D07004E1D65 /* Alves0.png in Resources */ = {isa = PBXBuildFile; fileRef = F5FFD9301C206D07004E1D65 /* Alves0.png */; };
+		F5FFD93C1C206D07004E1D65 /* Bravo0.png in Resources */ = {isa = PBXBuildFile; fileRef = F5FFD9311C206D07004E1D65 /* Bravo0.png */; };
+		F5FFD93D1C206D07004E1D65 /* Busquets0.png in Resources */ = {isa = PBXBuildFile; fileRef = F5FFD9321C206D07004E1D65 /* Busquets0.png */; };
+		F5FFD93E1C206D07004E1D65 /* Iniesta0.png in Resources */ = {isa = PBXBuildFile; fileRef = F5FFD9331C206D07004E1D65 /* Iniesta0.png */; };
+		F5FFD93F1C206D07004E1D65 /* Mascherano0.png in Resources */ = {isa = PBXBuildFile; fileRef = F5FFD9341C206D07004E1D65 /* Mascherano0.png */; };
+		F5FFD9401C206D07004E1D65 /* Messi0.png in Resources */ = {isa = PBXBuildFile; fileRef = F5FFD9351C206D07004E1D65 /* Messi0.png */; };
+		F5FFD9411C206D07004E1D65 /* Neymar0.png in Resources */ = {isa = PBXBuildFile; fileRef = F5FFD9361C206D07004E1D65 /* Neymar0.png */; };
+		F5FFD9421C206D07004E1D65 /* Pique0.png in Resources */ = {isa = PBXBuildFile; fileRef = F5FFD9371C206D07004E1D65 /* Pique0.png */; };
+		F5FFD9431C206D07004E1D65 /* Rakitic0.png in Resources */ = {isa = PBXBuildFile; fileRef = F5FFD9381C206D07004E1D65 /* Rakitic0.png */; };
+		F5FFD9441C206D07004E1D65 /* Suarez0.png in Resources */ = {isa = PBXBuildFile; fileRef = F5FFD9391C206D07004E1D65 /* Suarez0.png */; };
+		F5FFD9481C206DB0004E1D65 /* Suarez.png in Resources */ = {isa = PBXBuildFile; fileRef = F5FFD9471C206DB0004E1D65 /* Suarez.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F5775F141C2192500026C2F0 /* Detail1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Detail1.h; sourceTree = "<group>"; };
+		F5775F151C2192500026C2F0 /* Detail1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Detail1.m; sourceTree = "<group>"; };
+		F5775F171C21925F0026C2F0 /* Detail2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Detail2.h; sourceTree = "<group>"; };
+		F5775F181C21925F0026C2F0 /* Detail2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Detail2.m; sourceTree = "<group>"; };
+		F5D78BE51C1FC67800FAEA28 /* MVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D78BE91C1FC67800FAEA28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5D78BEB1C1FC67800FAEA28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5D78BEC1C1FC67800FAEA28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5D78BF21C1FC67800FAEA28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5D78BF71C1FC67800FAEA28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5D78BF91C1FC67800FAEA28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5D78BFF1C1FC69B00FAEA28 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		F5D78C021C1FC6DB00FAEA28 /* VSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSModel.h; sourceTree = "<group>"; };
+		F5D78C031C1FC6DB00FAEA28 /* VSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSModel.m; sourceTree = "<group>"; };
+		F5D78C051C1FC70000FAEA28 /* DataManeger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManeger.h; sourceTree = "<group>"; };
+		F5D78C061C1FC70000FAEA28 /* DataManeger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManeger.m; sourceTree = "<group>"; };
+		F5D78C081C1FC70F00FAEA28 /* Barca.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Barca.plist; sourceTree = "<group>"; };
+		F5FFD9081C205405004E1D65 /* Master.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Master.h; sourceTree = "<group>"; };
+		F5FFD9091C205405004E1D65 /* Master.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Master.m; sourceTree = "<group>"; };
+		F5FFD9151C205CE8004E1D65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5FFD9191C206CFA004E1D65 /* Alba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alba.png; sourceTree = "<group>"; };
+		F5FFD91A1C206CFA004E1D65 /* Alves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alves.png; sourceTree = "<group>"; };
+		F5FFD91B1C206CFA004E1D65 /* Bravo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bravo.png; sourceTree = "<group>"; };
+		F5FFD91C1C206CFA004E1D65 /* Busquets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Busquets.png; sourceTree = "<group>"; };
+		F5FFD91D1C206CFA004E1D65 /* Iniesta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Iniesta.png; sourceTree = "<group>"; };
+		F5FFD91E1C206CFA004E1D65 /* Mascherano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mascherano.png; sourceTree = "<group>"; };
+		F5FFD91F1C206CFA004E1D65 /* Messi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Messi.png; sourceTree = "<group>"; };
+		F5FFD9201C206CFA004E1D65 /* Neymar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Neymar.png; sourceTree = "<group>"; };
+		F5FFD9211C206CFA004E1D65 /* Pique.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pique.png; sourceTree = "<group>"; };
+		F5FFD9221C206CFA004E1D65 /* Rakitic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rakitic.png; sourceTree = "<group>"; };
+		F5FFD92F1C206D07004E1D65 /* Alba0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alba0.png; sourceTree = "<group>"; };
+		F5FFD9301C206D07004E1D65 /* Alves0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alves0.png; sourceTree = "<group>"; };
+		F5FFD9311C206D07004E1D65 /* Bravo0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bravo0.png; sourceTree = "<group>"; };
+		F5FFD9321C206D07004E1D65 /* Busquets0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Busquets0.png; sourceTree = "<group>"; };
+		F5FFD9331C206D07004E1D65 /* Iniesta0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Iniesta0.png; sourceTree = "<group>"; };
+		F5FFD9341C206D07004E1D65 /* Mascherano0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mascherano0.png; sourceTree = "<group>"; };
+		F5FFD9351C206D07004E1D65 /* Messi0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Messi0.png; sourceTree = "<group>"; };
+		F5FFD9361C206D07004E1D65 /* Neymar0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Neymar0.png; sourceTree = "<group>"; };
+		F5FFD9371C206D07004E1D65 /* Pique0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pique0.png; sourceTree = "<group>"; };
+		F5FFD9381C206D07004E1D65 /* Rakitic0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rakitic0.png; sourceTree = "<group>"; };
+		F5FFD9391C206D07004E1D65 /* Suarez0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Suarez0.png; sourceTree = "<group>"; };
+		F5FFD9471C206DB0004E1D65 /* Suarez.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Suarez.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5D78BE21C1FC67800FAEA28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5D78BDC1C1FC67800FAEA28 = {
+			isa = PBXGroup;
+			children = (
+				F5D78BE71C1FC67800FAEA28 /* MVC */,
+				F5D78BE61C1FC67800FAEA28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5D78BE61C1FC67800FAEA28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5D78BE51C1FC67800FAEA28 /* MVC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5D78BE71C1FC67800FAEA28 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				F5D78BEB1C1FC67800FAEA28 /* AppDelegate.h */,
+				F5D78BEC1C1FC67800FAEA28 /* AppDelegate.m */,
+				F5D78BF61C1FC67800FAEA28 /* LaunchScreen.storyboard */,
+				F5FFD9151C205CE8004E1D65 /* Assets.xcassets */,
+				F5D78BF91C1FC67800FAEA28 /* Info.plist */,
+				F5FFD9071C20532F004E1D65 /* ViewControl */,
+				F5D78C011C1FC6C100FAEA28 /* Model */,
+				F5D78BE81C1FC67800FAEA28 /* Supporting Files */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		F5D78BE81C1FC67800FAEA28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5FFD9181C206CE0004E1D65 /* face */,
+				F5FFD9171C206CD9004E1D65 /* images */,
+				F5D78BFF1C1FC69B00FAEA28 /* Logo.png */,
+				F5D78BE91C1FC67800FAEA28 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5D78C011C1FC6C100FAEA28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5D78C021C1FC6DB00FAEA28 /* VSModel.h */,
+				F5D78C031C1FC6DB00FAEA28 /* VSModel.m */,
+				F5D78C051C1FC70000FAEA28 /* DataManeger.h */,
+				F5D78C061C1FC70000FAEA28 /* DataManeger.m */,
+				F5D78C081C1FC70F00FAEA28 /* Barca.plist */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F5FFD9071C20532F004E1D65 /* ViewControl */ = {
+			isa = PBXGroup;
+			children = (
+				F5D78BF11C1FC67800FAEA28 /* Main.storyboard */,
+				F5FFD9081C205405004E1D65 /* Master.h */,
+				F5FFD9091C205405004E1D65 /* Master.m */,
+				F5775F141C2192500026C2F0 /* Detail1.h */,
+				F5775F151C2192500026C2F0 /* Detail1.m */,
+				F5775F171C21925F0026C2F0 /* Detail2.h */,
+				F5775F181C21925F0026C2F0 /* Detail2.m */,
+			);
+			name = ViewControl;
+			sourceTree = "<group>";
+		};
+		F5FFD9171C206CD9004E1D65 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F5FFD9471C206DB0004E1D65 /* Suarez.png */,
+				F5FFD9191C206CFA004E1D65 /* Alba.png */,
+				F5FFD91A1C206CFA004E1D65 /* Alves.png */,
+				F5FFD91B1C206CFA004E1D65 /* Bravo.png */,
+				F5FFD91C1C206CFA004E1D65 /* Busquets.png */,
+				F5FFD91D1C206CFA004E1D65 /* Iniesta.png */,
+				F5FFD91E1C206CFA004E1D65 /* Mascherano.png */,
+				F5FFD91F1C206CFA004E1D65 /* Messi.png */,
+				F5FFD9201C206CFA004E1D65 /* Neymar.png */,
+				F5FFD9211C206CFA004E1D65 /* Pique.png */,
+				F5FFD9221C206CFA004E1D65 /* Rakitic.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		F5FFD9181C206CE0004E1D65 /* face */ = {
+			isa = PBXGroup;
+			children = (
+				F5FFD92F1C206D07004E1D65 /* Alba0.png */,
+				F5FFD9301C206D07004E1D65 /* Alves0.png */,
+				F5FFD9311C206D07004E1D65 /* Bravo0.png */,
+				F5FFD9321C206D07004E1D65 /* Busquets0.png */,
+				F5FFD9331C206D07004E1D65 /* Iniesta0.png */,
+				F5FFD9341C206D07004E1D65 /* Mascherano0.png */,
+				F5FFD9351C206D07004E1D65 /* Messi0.png */,
+				F5FFD9361C206D07004E1D65 /* Neymar0.png */,
+				F5FFD9371C206D07004E1D65 /* Pique0.png */,
+				F5FFD9381C206D07004E1D65 /* Rakitic0.png */,
+				F5FFD9391C206D07004E1D65 /* Suarez0.png */,
+			);
+			name = face;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5D78BE41C1FC67800FAEA28 /* MVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D78BFC1C1FC67800FAEA28 /* Build configuration list for PBXNativeTarget "MVC" */;
+			buildPhases = (
+				F5D78BE11C1FC67800FAEA28 /* Sources */,
+				F5D78BE21C1FC67800FAEA28 /* Frameworks */,
+				F5D78BE31C1FC67800FAEA28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVC;
+			productName = MVC;
+			productReference = F5D78BE51C1FC67800FAEA28 /* MVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5D78BDD1C1FC67800FAEA28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Trung Bao";
+				TargetAttributes = {
+					F5D78BE41C1FC67800FAEA28 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = F5D78BE01C1FC67800FAEA28 /* Build configuration list for PBXProject "MVC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5D78BDC1C1FC67800FAEA28;
+			productRefGroup = F5D78BE61C1FC67800FAEA28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5D78BE41C1FC67800FAEA28 /* MVC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5D78BE31C1FC67800FAEA28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5FFD9431C206D07004E1D65 /* Rakitic0.png in Resources */,
+				F5FFD92B1C206CFA004E1D65 /* Neymar.png in Resources */,
+				F5FFD93F1C206D07004E1D65 /* Mascherano0.png in Resources */,
+				F5FFD9421C206D07004E1D65 /* Pique0.png in Resources */,
+				F5FFD9411C206D07004E1D65 /* Neymar0.png in Resources */,
+				F5FFD9291C206CFA004E1D65 /* Mascherano.png in Resources */,
+				F5FFD92A1C206CFA004E1D65 /* Messi.png in Resources */,
+				F5FFD9441C206D07004E1D65 /* Suarez0.png in Resources */,
+				F5D78C091C1FC70F00FAEA28 /* Barca.plist in Resources */,
+				F5FFD9281C206CFA004E1D65 /* Iniesta.png in Resources */,
+				F5FFD93C1C206D07004E1D65 /* Bravo0.png in Resources */,
+				F5FFD9251C206CFA004E1D65 /* Alves.png in Resources */,
+				F5FFD92C1C206CFA004E1D65 /* Pique.png in Resources */,
+				F5FFD92D1C206CFA004E1D65 /* Rakitic.png in Resources */,
+				F5FFD9401C206D07004E1D65 /* Messi0.png in Resources */,
+				F5D78C001C1FC69B00FAEA28 /* Logo.png in Resources */,
+				F5FFD93B1C206D07004E1D65 /* Alves0.png in Resources */,
+				F5FFD9161C205CE8004E1D65 /* Assets.xcassets in Resources */,
+				F5FFD9241C206CFA004E1D65 /* Alba.png in Resources */,
+				F5FFD93A1C206D07004E1D65 /* Alba0.png in Resources */,
+				F5D78BF81C1FC67800FAEA28 /* LaunchScreen.storyboard in Resources */,
+				F5FFD93D1C206D07004E1D65 /* Busquets0.png in Resources */,
+				F5FFD9271C206CFA004E1D65 /* Busquets.png in Resources */,
+				F5FFD9261C206CFA004E1D65 /* Bravo.png in Resources */,
+				F5FFD93E1C206D07004E1D65 /* Iniesta0.png in Resources */,
+				F5D78BF31C1FC67800FAEA28 /* Main.storyboard in Resources */,
+				F5FFD9481C206DB0004E1D65 /* Suarez.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5D78BE11C1FC67800FAEA28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D78BED1C1FC67800FAEA28 /* AppDelegate.m in Sources */,
+				F5D78C071C1FC70000FAEA28 /* DataManeger.m in Sources */,
+				F5775F161C2192500026C2F0 /* Detail1.m in Sources */,
+				F5D78BEA1C1FC67800FAEA28 /* main.m in Sources */,
+				F5775F191C21925F0026C2F0 /* Detail2.m in Sources */,
+				F5D78C041C1FC6DB00FAEA28 /* VSModel.m in Sources */,
+				F5FFD90A1C205405004E1D65 /* Master.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5D78BF11C1FC67800FAEA28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5D78BF21C1FC67800FAEA28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5D78BF61C1FC67800FAEA28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5D78BF71C1FC67800FAEA28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5D78BFA1C1FC67800FAEA28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5D78BFB1C1FC67800FAEA28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5D78BFD1C1FC67800FAEA28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TrungBao.MVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5D78BFE1C1FC67800FAEA28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TrungBao.MVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5D78BE01C1FC67800FAEA28 /* Build configuration list for PBXProject "MVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D78BFA1C1FC67800FAEA28 /* Debug */,
+				F5D78BFB1C1FC67800FAEA28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D78BFC1C1FC67800FAEA28 /* Build configuration list for PBXNativeTarget "MVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D78BFD1C1FC67800FAEA28 /* Debug */,
+				F5D78BFE1C1FC67800FAEA28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5D78BDD1C1FC67800FAEA28 /* Project object */;
+}

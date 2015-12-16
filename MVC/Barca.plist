@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Claudio Bravo</string>
+		<key>number</key>
+		<string>13</string>
+		<key>poisition</key>
+		<string>GK</string>
+		<key>national</key>
+		<string>Chile</string>
+		<key>photo</key>
+		<string>Bravo</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Gerard Pique</string>
+		<key>number</key>
+		<string>3</string>
+		<key>poisition</key>
+		<string>CB</string>
+		<key>national</key>
+		<string>Spain</string>
+		<key>photo</key>
+		<string>Pique</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Dani Alves</string>
+		<key>number</key>
+		<string>22</string>
+		<key>poisition</key>
+		<string>RB</string>
+		<key>national</key>
+		<string>Brazil</string>
+		<key>photo</key>
+		<string>Alves</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Javier Mascherano</string>
+		<key>number</key>
+		<string>14</string>
+		<key>poisition</key>
+		<string>CB</string>
+		<key>national</key>
+		<string>Argentina</string>
+		<key>photo</key>
+		<string>Mascherano</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Jordi Alba</string>
+		<key>number</key>
+		<string>18</string>
+		<key>poisition</key>
+		<string>LB</string>
+		<key>national</key>
+		<string>Spain</string>
+		<key>photo</key>
+		<string>Alba</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Ivan Rakitic</string>
+		<key>number</key>
+		<string>4</string>
+		<key>poisition</key>
+		<string>CM</string>
+		<key>national</key>
+		<string>Croatia</string>
+		<key>photo</key>
+		<string>Rakitic</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Sergio Busquets</string>
+		<key>number</key>
+		<string>5</string>
+		<key>poisition</key>
+		<string>CM</string>
+		<key>national</key>
+		<string>Spain</string>
+		<key>photo</key>
+		<string>Busquets</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Andres Iniesta</string>
+		<key>number</key>
+		<string>8</string>
+		<key>poisition</key>
+		<string>CAM</string>
+		<key>national</key>
+		<string>Spain</string>
+		<key>photo</key>
+		<string>Iniesta</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Lionel Messi</string>
+		<key>number</key>
+		<string>10</string>
+		<key>poisition</key>
+		<string>RW</string>
+		<key>national</key>
+		<string>Argentina</string>
+		<key>photo</key>
+		<string>Messi</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Neymar</string>
+		<key>number</key>
+		<string>11</string>
+		<key>poisition</key>
+		<string>LW</string>
+		<key>national</key>
+		<string>Brazil</string>
+		<key>photo</key>
+		<string>Neymar</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Luis Suarez</string>
+		<key>number</key>
+		<string>9</string>
+		<key>poisition</key>
+		<string>CF</string>
+		<key>national</key>
+		<string>Uruguay</string>
+		<key>photo</key>
+		<string>Suarez</string>
+	</dict>
+</array>
+</plist>
